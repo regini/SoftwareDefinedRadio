@@ -44,14 +44,14 @@ public class SimulatoreGUI extends Frame implements ActionListener{
 		tfNumeroCampioni.setEditable(true);
 		panelInputDataSignal.add(tfNumeroCampioni);
 
-		lblProveOffLine = new Label("Prove OffLine: ");
+		lblProveOffLine = new Label("Prove Off-Line: ");
 		panelInputDataSignal.add(lblProveOffLine);
 
 		tfProveOffLine = new TextField();
 		tfProveOffLine.setEditable(true);
 		panelInputDataSignal.add(tfProveOffLine);
 
-		lblProveOnLine = new Label("Prove OnLine: ");
+		lblProveOnLine = new Label("Prove On-Line: ");
 		panelInputDataSignal.add(lblProveOnLine);
 
 		tfProveOnLine = new TextField();
